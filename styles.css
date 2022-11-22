@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,500;0,800;1,500&display=swap');
+
+:root{
+    --primary-color: #cf5bae;
+    --of-white: #cecef3;
+}
+
+body{
+    font-family: 'Kanit', sans-serif;
+    margin: 0px;
+    background-color: #170322;
+}
+
+.container{
+    padding-left : 1rem;
+    padding-right : 1rem;
+}
+.cont-center{
+    margin: auto;
+    max-width: 600px;
+    
+}
+
+/* Links */
+.primary-link{
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    color: white;   
+}
+.secondary-link{
+    color: var(--primary-color);
+    border-radius: 5px;
+    border: 1px solid var(--primary-color);
+}
+.link{
+    text-decoration: none;
+    padding: 1rem 1rem;
+    color: white;
+}
+.non_bullet{
+    list-style: none;
+}
+
+.list-inline-item{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    /* border-bottom-left-radius: 25px; */
+    /* border-top-right-radius: 25px; */
+}
+.unordered{
+    color: white;
+    text-align: right;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+    /* background-color: rgb(127, 59, 191); */
+    padding: 5px;
+    border-radius: 5px;
+}
+.nav-brand{
+    font-weight:bold;
+    font-size: large;
+}
+
+
+.hero{
+    padding: 2rem;
+}
+.hero .hero-img{
+    max-width:350px;
+    max-height:150px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.hero-heading{
+    margin: auto;
+    padding-top: 1rem ;
+    text-align: center;
+    font-size: 2rem;
+    color: #8B7280;
+}
+.span-web{
+    color: var(--primary-color);
+    /* margin: 10px; */
+}
+
+/* Section */
+.section h3{
+    text-align: center;
+}
+
+.section{
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.ow{
+background-color: var(--of-white);
+}
+
+footer{
+    padding: 1rem;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+footer ul{
+    padding-inline-start: 0px;
+}
+
+.cen{
+    text-align: center;
+}
+.foot_head{
+    font-weight: bold;
+    font-size: large;
+}
+.btn{
+    background-color: rgb(50, 12, 81);
+}
