@@ -1,4 +1,3 @@
 # Portfolio
-Link in README.md
+Link https://aryan-ka-portfolio.netlify.app/
 This is the official portfolio website of Aryan Mishra.
-https://aryan-ka-portfolio.netlify.app/
